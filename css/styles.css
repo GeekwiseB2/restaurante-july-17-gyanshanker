@@ -65,7 +65,7 @@
   background-color: #D34326;
 }
 
-#ourstory-text {
+.heading-text {
   font-family: 'lobster', cursive;
   color: orangered;
   text-shadow: 2px 2px #000;
@@ -83,4 +83,18 @@
   font-family: 'Playfair Display', serif;
   opacity: .2;
   font-size: 200px;
+}
+
+.farm-veges {
+  background-image: url('../img/food_review.jpg');
+  height: 600px;
+}
+
+.transbox {
+  margin: 20%;
+  background-color: #000;
+  opacity: .8;
+  text-align: center;
+  color: #fff;
+  font-size: x-large;
 }

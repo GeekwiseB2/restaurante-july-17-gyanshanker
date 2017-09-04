@@ -1,3 +1,7 @@
+/* Fornts for our story */
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Lobster|Playfair+Display:700');
+
+
 .navbar-inverse {
   background-color: transparent;
   border: none;
@@ -14,8 +18,9 @@
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
   background-color: rgba(0,0,0,.25);
-  color: #F8512F; /* Base Orange */
+  color: #F8512F; /* base orange */
 }
+
 
 /*Carousel Styles */
 
@@ -58,4 +63,24 @@
 
 .btn-warning:hover {
   background-color: #D34326;
+}
+
+#ourstory-text {
+  font-family: 'lobster', cursive;
+  color: orangered;
+  text-shadow: 2px 2px #000;
+  font-size: 70px;
+}
+
+#oneman-text {
+  font-family: 'lato', sans-serif;
+  font-weight: bold;
+}
+
+#year-text {
+  position: absolute;
+  z-index: 0;
+  font-family: 'Playfair Display', serif;
+  opacity: .2;
+  font-size: 200px;
 }

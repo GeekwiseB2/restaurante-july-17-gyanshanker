@@ -102,7 +102,7 @@
   margin-top: 30px;
 }
 
-#our_story #transbox h1 {
+#our_story h1 {
   font-size: 6em;
   margin-top: 0;
   text-shadow: 2px 2px 5px #000;
@@ -119,26 +119,6 @@
   position: absolute;
   z-index: -1;
   color: rgba(149, 147, 147, .2);
-}
-
-.heading-text {
-  font-family: 'lobster', cursive;
-  color: orangered;
-  text-shadow: 2px 2px #000;
-  font-size: 70px;
-}
-
-#oneman-text {
-  font-family: 'lato', sans-serif;
-  font-weight: bold;
-}
-
-#year-text {
-  position: absolute;
-  z-index: 0;
-  font-family: 'Playfair Display', serif;
-  opacity: .2;
-  font-size: 200px;
 }
 
 
@@ -172,25 +152,33 @@
   text-shadow: 1px 1px 5px #0a0a0a;
 }
 
-#farm-veges {
-  background-image: url('../img/food_review.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.transbox {
-  margin: 10%;
-  background-color: #000;
-  opacity: .8;
-  text-align: center;
-  color: #fff;
-  font-size: x-large;
-}
-
 /*menu*/
 
+#menu {
+  background-image: url('../img/black_linen.png');
+}
+
+#menu h1 {
+  font-size: 5em;
+}
+
+.food-item {
+  background-color: #fff;
+  padding: 8px 6px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu .nav-tabs>li>a {
+  color: #F8512F;
+  font-weight: bold;
+}
+
+#menu .nav-tabs>li>a:hover {
+  background-color: rgba(255, 255, 255, .2);
+  border-color: transparent;
+}
+
+
+/*
 #menu-wrapper {
   background-color: #000;
   height: 600px;
@@ -213,3 +201,5 @@
   font-weight: bold;
 
 }
+
+*/

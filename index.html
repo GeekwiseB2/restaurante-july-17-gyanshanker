@@ -86,33 +86,31 @@
 	<!-- carousel ends -->
 
   <!-- Begin Our Story Section -->
-		<!-- ..container>.row>(.col-sm-6>(h1>{Our Story})+h3>{One Man. One Dream.})+.col-sm-6>(h1.year-text>{1989})+(p>>lorem)*4 -->
 
-		<div id="our_story" class="container-fluid min-height">
-			<div class="row">
-				<div class="col-sm-4 col-xs-offset-1">
-					<h1 class="primary-font orange-text">Our Story</h2>
-					<h3 class="thick-text">One Man. One Dream.</h3>
-				</div>
-				<div class="col-sm-5 col-sm-offset-1">
-					<h2 class="story-year thick-text">1989</h2>
-					<p class="text-justify secondary-font thin-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta fugit quidem tenetur necessitatibus distinctio a aliquid quos suscipit ex magni, maiores eius quod rem aperiam accusamus facilis deleniti veritatis illo.</p>
-					<p class="text-justify secondary-font thin-text">Similique dolorem aut totam rem repudiandae, temporibus, qui eligendi fugiat obcaecati, nemo et ea, asperiores labore eveniet. Est cum neque pariatur, placeat quam asperiores, similique, nostrum voluptas odit molestias, aliquam!</p>
-					<p class="text-justify secondary-font thin-text">Hic iusto laborum ipsum ex, doloribus illum at fugiat eveniet minus, dolorem iure earum a in dolorum ducimus vel ab quod, aliquam mollitia culpa. Dolorum adipisci fugit nulla quae iusto.</p>
-					<p class="text-justify secondary-font thin-text">Ipsum dicta a maiores accusamus illum voluptatibus ea id, facilis ratione. Obcaecati dolorem itaque sed autem harum, at aspernatur cumque ullam iure omnis laborum hic alias expedita, assumenda repellendus eveniet.</p>
-				</div>
-			</div>
-		</div>
+	  <div id="our_story" class="container-fluid min-height">
+	  	<div class="row">
+	  		<div class="col-sm-5 col-sm-offset-1">
+	  			<h1 class="primary-font orange-text">Our Story</h1>
+	  			<h3 class="thick-text">One Man. One Dream</h3>
+	  		</div>
+	  		<div class="col-sm-5">
+	  			<h2 class="story-year thick-text">1989</h2>
+	  			<p class="text-justify secondary-font thin-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque maxime, quas in voluptatum officiis corrupti id, natus accusantium consectetur eius, voluptas ea earum velit. Earum dolorum dignissimos, placeat ad animi!</p>
+	  			<p class="text-justify secondary-font thin-text">Perferendis molestiae aut fugiat iste inventore ea ratione consectetur enim? Autem quaerat vel eligendi enim. Ex molestias neque eum dicta facilis debitis, aperiam, incidunt sint aliquam, quisquam nam error dolores!</p>
+	  			<p class="text-justify secondary-font thin-text">Fugit quae eius in non nobis labore numquam vitae, odit nihil sint quaerat, alias excepturi. Voluptatem culpa eius ullam tempore minus, unde, totam ipsam odio quae veritatis ex repellendus hic?</p>
+	  			<p class="text-justify secondary-font thin-text">At molestiae dolorum fugiat asperiores autem tempore nulla quibusdam soluta, quam, excepturi molestias, temporibus reprehenderit possimus incidunt. Tempora, mollitia dolores, inventore porro eos distinctio laborum temporibus officia consequatur, illo possimus?</p>
+	  		</div>
+	  	</div>
+	  </div>
 
 		<!-- End our story section -->
 
-		<!-- Begin Menu section -->
+		<!-- Begin Review section -->
 
-		<!-- #review.container-fluid.min-height>.row.text-center>.col-sm-8.center>h1.primary-font.orange-text+p.secondary-font.white-text.thin-text -->
 
-		<div id="review" class="container-fluid min-height">
-			<div class="row text-center">
-				<div class="center min-height">
+
+		<div id="review" class="container-fluid">
+				<div class="center min-height text-center">
 					<div class="col-sm-8 review-container">
 						<h1 class="primary-font orange-text">Fresno Bee</h1>
 						<p class="secondary-font white-text thin-text">
@@ -120,33 +118,163 @@
 						</p>
 					</div>
 				</div>
-			</div>
 		</div>
-
-<!--
-    <div id="farm-veges" class="container-fluid min-height">
-			<div class="transbox">
-				<h1 class="primary-font orange-text">Fresno Bee</h1>
-				<p>'The freshest and best ingredients come together to make some of the best food I ever ate. You can really taste the Central Valley in every bite'.</p>
-			</div>
-    </div>
--->
 
     <!-- End Review section -->
 
 		<!-- Begin Menu section -->
 
-		<div class="container-fluid" id="menu-wrapper">
-			<h1 id="menu-text">Menu</h1>
-			<div class="container">
+		<div id="menu">
+			<div class="container-fluid text-center">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<h1 class="primary-font white-text">Menu</h1>
+						<div>
+						  <!-- Nav tabs -->
+						  <ul class="nav nav-tabs nav-justified text-uppercase" role="tablist">
+						    <li role="presentation" class="active"><a href="#appetizers" aria-controls="appetizers" role="tab" data-toggle="tab">appetizers</a></li>
+						    <li role="presentation"><a href="#lunch" aria-controls="lunch" role="tab" data-toggle="tab">lunch</a></li>
+						    <li role="presentation"><a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab">dinner</a></li>
+						    <li role="presentation"><a href="#desert" aria-controls="desert" role="tab" data-toggle="tab">desert</a></li>
+						  </ul>
 
+						  <!-- Tab panes -->
+						  <div class="tab-content">
+						    <div role="tabpanel" class="tab-pane fade in active" id="appetizers">
+						    <!-- appetizer menu starts -->
+									<div class="col-sm-3 col-xs-6 food-item">
+										<img src="img/dip.jpg" alt="Dip" class="img-responsive img-thumbnail">
+										<h3>appetizer 1</h3>
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+									</div>
+									<!-- appetizer 1 ends -->
+
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/eggplant.jpg" alt="Dip" class="img-responsive img-thumbnail">
+											<h3>appetizer 2</h3>
+											<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+									</div>
+									<!-- appetizer 2 ends -->
+
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/meat.jpg" alt="Dip" class="img-responsive img-thumbnail">
+												<h3>appetizer 2</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+									</div>
+									<!-- appetizer 3 ends -->
+
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/bruschetta.jpg" alt="Dip" class="img-responsive img-thumbnail">
+												<h3>appetizer 4</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+									</div>
+									<!-- appetizer 4 ends -->
+                </div>
+								<!-- appetizer menu ends -->
+
+								<!-- Lunch menu start  -->
+						    <div role="tabpanel" class="tab-pane fade" id="lunch">
+									<div class="col-sm-3 col-xs-6 food-item">
+										<img src="img/lunch1.jpg" alt="Dip" class="img-responsive img-thumbnail">
+										<h3>lumch 1</h3>
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+										<!-- lunch 1 ends -->
+									</div>
+
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/lunch2.jpg" alt="Dip" class="img-responsive img-thumbnail">
+											<h3>lunch 2</h3>
+											<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+											<!-- lunch 2 ends -->
+									</div>
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/lunch3.jpg" alt="Dip" class="img-responsive img-thumbnail">
+												<h3>lumch 3</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+											<!-- lunch 3 ends -->
+									</div>
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/lunch4.jpg" alt="Dip" class="img-responsive img-thumbnail">
+												<h3>lunch 4</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+
+											<!-- lunch 4 ends -->
+									</div>
+						    </div>
+								<!-- Lunch menu ends -->
+						    <div role="tabpanel" class="tab-pane fade" id="dinner">
+						    	<!-- Dinner menu starts -->
+									<div class="col-sm-3 col-xs-6 food-item">
+										<img src="img/dinner1.jpg" alt="Dip" class="img-responsive img-thumbnail">
+										<h3>dinner 1</h3>
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+										<!-- dinner 1 ends -->
+									</div>
+
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/dinner2.jpg" alt="Dip" class="img-responsive img-thumbnail">
+											<h3>dinner 2</h3>
+											<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+											<!-- dinner 2 ends -->
+									</div>
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/dinner3.jpg" alt="Dip" class="img-responsive img-thumbnail">
+												<h3>dinner 2</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+											<!-- dinner 3 ends -->
+									</div>
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/dinner4.jpg" alt="Dip" class="img-responsive img-thumbnail">
+												<h3>dinner 4</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+
+											<!-- dinner 4 ends -->
+									</div>
+
+									<!-- Dinner menu ends -->
+						    </div>
+						    <div role="tabpanel" class="tab-pane fade" id="desert">
+						    	<!-- Desert menu starts -->
+									<div class="col-sm-3 col-xs-6 food-item">
+										<img src="img/dessert1.jpg" alt="Dip" class="img-responsive img-thumbnail">
+										<h3>desert 1</h3>
+										<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+										<!-- desert 1 ends -->
+									</div>
+
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/dessert2.jpg" alt="Dip" class="img-responsive img-thumbnail">
+											<h3>desert 2</h3>
+											<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+											<!-- desert 2 ends -->
+									</div>
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/dessert3.jpg" alt="Dip" class="img-responsive img-thumbnail">
+												<h3>desert 3</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+											<!-- desert 3 ends -->
+									</div>
+									<div class="col-sm-3 col-xs-6 food-item">
+											<img src="img/dessert4.jpg" alt="Dip" class="img-responsive img-thumbnail">
+												<h3>desert 4</h3>
+												<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae sunt natus aperiam expedita, repellendus placeat dignissimos eos, iure doloremque dolorum non culpa quo fugiat, dolorem quam assumenda explicabo quasi eum.</p>
+
+											<!-- desert 4 ends -->
+									</div>
+									<!-- Desert menu ends -->
+						    </div>
+						  </div>
+
+						</div>
+					</div>
+				</div>
 			</div>
-
 		</div>
 
     <!-- End menu section -->
 
 		<!-- Begin Contact section -->
+	<!--
 		<div class="container-fluid contact-wrapper">
 			<div class="container">
 				<h1 class="contact-text text-uppercase">contact us</h1>
@@ -161,6 +289,7 @@
 				</div>
 			</div>
 		</div>
+	-->
 
 
 		<!-- End Contact section -->
